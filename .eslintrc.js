@@ -123,7 +123,7 @@ module.exports = {
 		'comma-spacing': [ 'error', { 'before': false, 'after': true } ],
 		'comma-style': [ 'error', 'last' ],
 		'computed-property-spacing': [ 'error', 'never' ],
-		'consistent-this': ["off"]
+		'consistent-this': ["off"],
 
 		indent: [ 'error', 'tab' ],
 		quotes: [ 'error', 'single' ],
