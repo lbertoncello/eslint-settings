@@ -95,11 +95,17 @@ module.exports = {
 		'vars-on-top': 'off',
 		'wrap-iife': ['error', 'outside'],
 		yoda: 'error',
+		'no-use-before-define': 'error',
 
 		/* -- Strict Mode -- */
 		strict: ['off'],
 
 		/* -- Variables -- */
+		'init-declarations': ['off'],
+		'no-label-var': 'error',
+		'no-shadow': 'error',
+		'no-undef-init': 'error',
+		'no-undefined': 'error',
 
 		indent: ['error', 'tab'],
 		quotes: ['error', 'single'],
