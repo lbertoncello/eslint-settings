@@ -47,7 +47,6 @@ module.exports = {
 		eqeqeq: 'error',
 		'grouped-accessor-pairs': 'error',
 		'guard-for-in': 'off',
-		// eslint-disable-next-line no-magic-numbers
 		'max-classes-per-file': [ 'error', 1 ],
 		'no-alert': 'error',
 		'no-caller': 'error',
@@ -74,7 +73,13 @@ module.exports = {
 		'no-labels': 'error',
 		'no-lone-blocks': 'error',
 		'no-loop-func': 'error',
-		'no-magic-numbers': 'error',
+		'no-magic-numbers': [
+			'error',
+			{
+				ignoreArrayIndexes: true,
+				ignoreDefaultValues: true,
+			},
+		],
 		'no-multi-spaces': 'error',
 		'no-multi-str': 'error',
 		'no-new': 'error',
