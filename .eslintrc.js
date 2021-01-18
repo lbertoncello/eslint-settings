@@ -166,7 +166,7 @@ module.exports = {
 		'eol-last': [ 'error', 'always' ],
 		'func-call-spacing': [ 'error', 'never' ],
 		'func-name-matching': 'error',
-		'func-names': [ 'error', 'as-needed' ],
+		'func-names': [ 'error', 'off' ],
 		'func-style': [
 			'error',
 			'declaration',
