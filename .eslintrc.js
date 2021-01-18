@@ -13,7 +13,6 @@ module.exports = {
 		ecmaVersion: 2021,
 	},
 	rules: {
-
 		/* -- Possible Errors -- */
 		'no-await-in-loop': 'error',
 		'no-console': 'off',
@@ -310,7 +309,7 @@ module.exports = {
 		],
 		'object-curly-spacing': [
 			'error',
-			'never',
+			'always',
 			{
 				arraysInObjects: true,
 				objectsInObjects: true,
@@ -400,6 +399,40 @@ module.exports = {
 		'wrap-regex': 'error',
 
 		/* -- ECMAScript 6 -- */
-
+		'arrow-body-style': [ 'error', 'as-needed' ],
+		'arrow-parens': [ 'error', 'always' ],
+		'arrow-spacing': [
+			'error',
+			{
+				before: true,
+				after: true,
+			},
+		],
+		'generator-star-spacing': [
+			'error',
+			{
+				before: true,
+				after: false,
+			},
+		],
+		'no-confusing-arrow': 'error',
+		'no-duplicate-imports': 'error',
+		'no-useless-computed-key': 'error',
+		'no-useless-constructor': 'error',
+		'no-useless-rename': 'error',
+		'no-var': 'error',
+		'object-shorthand': [ 'error', 'consistent' ],
+		'prefer-arrow-callback': 'off',
+		'prefer-const': 'error',
+		'prefer-destructuring': 'off',
+		'prefer-numeric-literals': 'error',
+		'prefer-rest-params': 'off',
+		'prefer-spread': 'error',
+		'prefer-template': 'error',
+		'rest-spread-spacing': [ 'error', 'never' ],
+		'sort-imports': 'off',
+		'symbol-description': 'error',
+		'template-curly-spacing': [ 'error', 'never' ],
+		'yield-star-spacing': [ 'error', 'after' ],
 	},
 };
