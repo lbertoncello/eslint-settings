@@ -86,7 +86,7 @@ module.exports = {
 		'no-param-reassign': [
 			'error',
 			{
-				props: true,
+				props: false,
 			},
 		],
 		'no-proto': 'error',
@@ -262,6 +262,7 @@ module.exports = {
 			'error',
 			{
 				newIsCap: true,
+				capIsNew: false,
 			},
 		],
 		'new-parens': [ 'error', 'always' ],

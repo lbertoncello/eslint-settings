@@ -1,3 +1,4 @@
 module.exports = {
-	error404: 404,
+	status404: 404,
+	status500: 500,
 };
