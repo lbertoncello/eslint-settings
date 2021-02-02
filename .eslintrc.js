@@ -80,7 +80,11 @@ module.exports = {
 				ignoreArrayIndexes: true,
 				ignoreDefaultValues: true,
 				detectObjects: false,
-				ignore: [ 1, 0 ],
+				ignore: [
+					-1,
+					0,
+					1,
+				],
 			},
 		],
 		'no-multi-spaces': 'error',
@@ -224,7 +228,7 @@ module.exports = {
 		'max-depth': [
 			'error',
 			{
-				max: 4,
+				max: 5,
 			},
 		],
 		'max-len': [
