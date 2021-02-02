@@ -80,6 +80,7 @@ module.exports = {
 				ignoreArrayIndexes: true,
 				ignoreDefaultValues: true,
 				detectObjects: false,
+				ignore: [ 1, 0 ],
 			},
 		],
 		'no-multi-spaces': 'error',
