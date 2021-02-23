@@ -15,7 +15,7 @@ module.exports = {
 	},
 	rules: {
 		/* -- Possible Errors -- */
-		'no-await-in-loop': 'error',
+		'no-await-in-loop': 'off',
 		'no-console': 'off',
 		'no-extra-parens': 'off',
 		'no-loss-of-precision': 'error',
