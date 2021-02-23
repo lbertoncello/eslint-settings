@@ -17,6 +17,7 @@ module.exports = {
 		/* -- Possible Errors -- */
 		'no-await-in-loop': 'off',
 		'no-console': 'off',
+		'no-constant-condition': [ 'error', { checkLoops: false } ],
 		'no-extra-parens': 'off',
 		'no-loss-of-precision': 'error',
 		'no-promise-executor-return': 'error',
