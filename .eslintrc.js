@@ -75,19 +75,7 @@ module.exports = {
 		'no-labels': 'error',
 		'no-lone-blocks': 'error',
 		'no-loop-func': 'error',
-		'no-magic-numbers': [
-			'error',
-			{
-				ignoreArrayIndexes: true,
-				ignoreDefaultValues: true,
-				detectObjects: false,
-				ignore: [
-					-1,
-					0,
-					1,
-				],
-			},
-		],
+		'no-magic-numbers': [ 'off' ],
 		'no-multi-spaces': 'error',
 		'no-multi-str': 'error',
 		'no-new': 'error',
