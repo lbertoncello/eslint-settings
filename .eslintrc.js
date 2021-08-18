@@ -4,6 +4,7 @@ module.exports = {
 		es6: true,
 		node: true,
 		mongo: true,
+		jest: true,
 	},
 	extends: 'eslint:recommended',
 	globals: {
@@ -34,7 +35,7 @@ module.exports = {
 		'class-methods-use-this': 'off',
 		complexity: [ 'off' ],
 		'consistent-return': 'error',
-		curly: 'error',
+		curly: [ 'error', 'multi-line' ],
 		'default-case': 'error',
 		'default-case-last': 'error',
 		'default-param-last': [ 'error' ],
@@ -48,7 +49,6 @@ module.exports = {
 		eqeqeq: 'error',
 		'grouped-accessor-pairs': 'error',
 		'guard-for-in': 'off',
-		// eslint-disable-next-line no-magic-numbers
 		'max-classes-per-file': [ 'error', 1 ],
 		'no-alert': 'error',
 		'no-caller': 'error',
@@ -224,7 +224,8 @@ module.exports = {
 			'error',
 			{
 				code: 80,
-				ignoreUrls: true,
+				ignoreStrings: true,
+				ignoreComments: true,
 				ignoreTemplateLiterals: true,
 				ignoreRegExpLiterals: true,
 			},
@@ -257,7 +258,7 @@ module.exports = {
 				max: 1,
 			},
 		],
-		'multiline-comment-style': [ 'error', 'starred-block' ],
+		'multiline-comment-style': [ 'off' ],
 		'multiline-ternary': [ 'error', 'always-multiline' ],
 		'new-cap': [
 			'error',
